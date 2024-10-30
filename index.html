@@ -1,75 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario de Contacto</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body
-    class="bg-gradient-to-r from-orange-500 to-red-500 min-h-screen flex items-center justify-center relative">
-    <div
-      class="bg-blue-600 text-white p-10 rounded-lg flex w-4/5 max-w-screen-lg shadow-lg z-10 relative">
-      <div class="w-1/2 pr-8">
-        <h2 class="text-lg font-semibold uppercase mb-2">Contacto</h2>
-        <p class="text-4xl">_</p>
-        <h3 class="text-4xl font-light mb-4">¿Tienes un proyecto en mente?</h3>
-        <p class="text-2xl">Nosotros podemos hacerlo realidad.</p>
-        <a href="#" class="inline-block mt-6 text-white text-4xl font-semibold">
-          <span class="inline-block mr-2">→</span>
-        </a>
-      </div>
 
-      <div
-        class="bg-white text-black p-8 rounded-lg shadow-lg w-1/2 z-20 relative">
-        <h4 class="text-lg font-semibold mb-6">Comunícate con nosotros</h4>
-        <form action="#">
-          <div class="mb-4">
-            <label class="block text-gray-600 text-sm mb-2" for="nombre"
-              >Nombre</label
-            >
-            <input
-              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-              type="text"
-              id="nombre"
-              placeholder="Gonzalo Pereyra" />
-          </div>
-          <div class="mb-4">
-            <label class="block text-gray-600 text-sm mb-2" for="email"
-              >E-mail</label
-            >
-            <input
-              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-              type="email"
-              id="email"
-              placeholder="G.pereyra@gmail.com" />
-          </div>
-          <div class="mb-4">
-            <label class="block text-gray-600 text-sm mb-2" for="telefono"
-              >Teléfono</label
-            >
-            <input
-              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-              type="tel"
-              id="telefono"
-              placeholder="540121887435" />
-          </div>
-          <div class="mb-6">
-            <label class="block text-gray-600 text-sm mb-2" for="motivo"
-              >Motivo</label
-            >
-            <textarea
-              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-              id="motivo"
-              rows="3"
-              placeholder="Quiero más información, gracias."></textarea>
-          </div>
-          <button
-            class="bg-blue-600 text-white px-6 py-4 rounded-sm w-full hover:bg-blue-700">
-            Enviar mensaje
-          </button>
-        </form>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario de Contacto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-orange-500 to-red-500 min-h-screen flex items-center justify-center relative">
+  <div class="bg-blue-600 text-white p-10 rounded-lg flex w-4/5 max-w-screen-lg shadow-lg z-10 relative">
+    <div class="w-1/2 pr-8">
+      <h2 class="text-lg font-semibold uppercase mb-2">Contacto</h2>
+      <p class="text-4xl">_</p>
+      <h3 class="text-4xl font-light mb-4">¿Tienes un proyecto en mente?</h3>
+      <p class="text-2xl">Nosotros podemos hacerlo realidad.</p>
+      <a href="#" class="inline-block mt-6 text-white text-4xl font-semibold">
+        <span class="inline-block mr-2">→</span>
+      </a>
     </div>
-  </body>
+
+    <div class="bg-white text-black p-8 rounded-lg shadow-lg w-1/2 z-20 relative">
+      <h4 class="text-lg font-semibold mb-6">Comunícate con nosotros</h4>
+      <form action="#">
+        <div class="mb-4">
+          <label class="block text-gray-600 text-sm mb-2" for="nombre">Nombre</label>
+          <input
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-300"
+            type="text" id="nombre" placeholder="Gonzalo Pereyra" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-600 text-sm mb-2" for="email">E-mail</label>
+          <input
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-300"
+            type="email" id="email" placeholder="G.pereyra@gmail.com" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-600 text-sm mb-2" for="telefono">Teléfono</label>
+          <input
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-300"
+            type="tel" id="telefono" placeholder="540121887435" />
+        </div>
+        <div class="mb-6">
+          <label class="block text-gray-600 text-sm mb-2" for="motivo">Motivo</label>
+          <textarea
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-300"
+            id="motivo" rows="3" placeholder="Quiero más información, gracias."></textarea>
+        </div>
+        <button class="bg-blue-600 text-white px-6 py-4 rounded-sm w-full hover:bg-blue-700">
+          Enviar mensaje
+        </button>
+      </form>
+    </div>
+  </div>
+</body>
+
 </html>
