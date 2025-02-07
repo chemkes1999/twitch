@@ -6,30 +6,41 @@
     <title>Browse Channels</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-gray-800 text-white">
-    <div class="bg-purple-700/75 p-2 flex justify-between items-center">
-      <!-- Barra de navegación (similar al índice) -->
+  <body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <div
+      class="bg-purple-700/75 p-4 flex justify-between items-center shadow-md">
+      <h2 class="text-xl font-semibold">Browse</h2>
+      <button
+        class="bg-purple-500 hover:bg-purple-600 px-4 py-2 rounded-lg text-sm">
+        Login
+      </button>
     </div>
 
     <!-- Contenido de la página Browse -->
-    <div class="flex p-8">
-      <h1 class="text-4xl font-bold text-center w-full">Browse Channels</h1>
-      <ul class="space-y-2 mt-4">
-        <li class="flex justify-between items-center">
-          <span>techstream</span>
-          <span class="text-red-600">5.6K</span>
-        </li>
-        <li class="flex justify-between items-center">
-          <span>devtalk</span>
-          <span class="text-red-600">2K</span>
-        </li>
-        <!-- Más canales para navegar -->
-      </ul>
+    <div class="container mx-auto py-10">
+      <h1 class="text-4xl font-extrabold text-center mb-8">Browse Channels</h1>
+      <div class="max-w-lg mx-auto bg-gray-800 p-6 rounded-lg shadow-lg">
+        <ul class="divide-y divide-gray-700">
+          <li class="flex justify-between items-center py-3">
+            <span class="text-lg">techstream</span>
+            <span class="text-red-500 font-semibold">5.6K</span>
+          </li>
+          <li class="flex justify-between items-center py-3">
+            <span class="text-lg">devtalk</span>
+            <span class="text-red-500 font-semibold">2K</span>
+          </li>
+          <!-- Más canales -->
+        </ul>
+      </div>
     </div>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 p-4 text-center text-sm">
-      <p>[700h+ Stream] NEVER ENDING STREAM... | Category: Tech | Ads Options</p>
+    <footer
+      class="bg-gray-800 p-4 text-center text-sm border-t border-gray-700">
+      <p class="text-gray-400">
+        [700h+ Stream] NEVER ENDING STREAM... | Category: Tech | Ads Options
+      </p>
     </footer>
   </body>
 </html>
